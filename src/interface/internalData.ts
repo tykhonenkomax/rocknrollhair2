@@ -29,5 +29,9 @@ export type InternalData = {
         time60: string,
         time90: string,
         time120: string,
+    },
+    links: {
+        gogleLink: string,
+        onlineBookingLink: string
     }
 }

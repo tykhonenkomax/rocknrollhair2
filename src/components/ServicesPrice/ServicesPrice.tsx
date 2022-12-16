@@ -8,6 +8,7 @@ export const ServicesPrice = ({price: {...price}, time: {...time}, services: {..
 
     <div className={styles.templatesName}>
         <div className={styles.titleStyle}>ПОСЛУГИ</div>
+        <div className={styles.line}></div>
 
         <div className={styles.generalBox}>
             <div className={styles.priceBox}>
@@ -25,6 +26,9 @@ export const ServicesPrice = ({price: {...price}, time: {...time}, services: {..
                     <div>{price.shortHaircut}</div>
                 </div>
             </div>
+
+
+
 
             <div>
                 <div className={styles.timeStyle}>{time.time60}</div>

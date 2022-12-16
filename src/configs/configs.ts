@@ -29,6 +29,10 @@ let configs =
             "time60": "60хв",
             "time90": "1г 30хв",
             "time120": "2г",
+        },
+        "links":{
+        "gogleLink":"https://www.google.com/maps/contrib/102703053358347796559/photos/@49.8467531,24.0008248,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1",
+        "onlineBookingLink":"https://w.wlaunch.net/c/rock_n_roll_hair/b/4926a617-9693-11ea-8c6f-75bfbdeb2ab4/s"
         }
     }
 

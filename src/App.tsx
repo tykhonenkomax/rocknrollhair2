@@ -13,6 +13,7 @@ function App() {
                     services={configs.services}
                     price={configs.price}
                     time={configs.time}
+                    links={configs.links}
             />
         </div>
     );
