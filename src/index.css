@@ -2,7 +2,8 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans',Arial,sans-serif;
+  font-family: Arial, serif;
   font-weight: 300;
+  font-size: 18px;
   color: #000000;
 }

@@ -6,32 +6,37 @@ export interface UsefulInformation extends Pick<InternalData, 'information' | 'l
 }
 
 export const UsefulInformation = ({information: {location, phoneNumber, workingHours}, links:{gogleLink}}: UsefulInformation) => (
+
     <div className={styles.info}>
         <div className={styles.infoBox}>
 
             <div className={styles.iconBox}>
-                <CiLocationArrow1 size={35}/>
+                <CiLocationArrow1 size={40}/>
             </div>
             <div>{location}</div>
             <a href={gogleLink}>переглянути на карті</a>
         </div>
 
+        <div className={styles.line}></div>
+
         <div className={styles.infoBox}>
             <div className={styles.iconBox}>
-                <CiClock2 size={35}/>
+                <CiClock2 size={40}/>
             </div>
             <div>{workingHours}</div>
             <div>без вихідних</div>
         </div>
 
+        <div className={styles.line}></div>
+
         <div className={styles.infoBox}>
             <div className={styles.iconBox}>
-                <CiPhone size={35}/>
+                <CiPhone size={40}/>
             </div>
             <div>{phoneNumber}</div>
             <a href="tel:0676714046">зателефонувати</a>
         </div>
-
     </div>
+
 );
 
