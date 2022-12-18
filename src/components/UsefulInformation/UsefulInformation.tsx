@@ -1,11 +1,12 @@
+import {InternalData} from 'interface/internalData';
+
 import styles from './UsefulInformation.module.scss';
 import {CiClock2, CiLocationArrow1, CiPhone} from "react-icons/ci"
-import {InternalData} from 'interface/internalData';
 
 export interface UsefulInformation extends Pick<InternalData, 'information' | 'links'> {
 }
 
-export const UsefulInformation = ({information: {location, phoneNumber, workingHours}, links:{gogleLink}}: UsefulInformation) => (
+export const UsefulInformation = ({information: {location, phoneNumber, workingHours}, links: {gogleLink}}: UsefulInformation) => (
 
     <div className={styles.info}>
         <div className={styles.infoBox}>
