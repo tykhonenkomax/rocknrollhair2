@@ -3,7 +3,7 @@ let configs =
         "information": {
             "location": "вул. Генерала Юнаківа 9Б",
             "workingHours": "10:00-22:00",
-            "phoneNumber": "067671046"
+            "phoneNumber": "0676714046"
         },
         "services": {
             "haircut": "Стрижка",
