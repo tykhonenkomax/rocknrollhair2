@@ -1,3 +1,10 @@
+.time{
+  font-size: 10px;
+  font-family: 'Arial', serif;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 2.5px;
+}
 .templatesName {
   display: flex;
   justify-content: space-around;
@@ -6,10 +13,24 @@
   margin: 50px 0 50px 0;
 
 }
-.time{
-  font-size: 10px;
-  font-family: 'Arial', serif;
-  font-weight: 600;
-  color: #000000;
-  letter-spacing: 2.5px;
-}
+
+@media (max-width: 1000px) {
+  .templatesName {
+    width: 500px;
+  }
+};
+
+@media (max-width: 590px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .templatesName {
+    width: 300px;
+  }
+  .price{
+    margin-bottom: 11px;
+  }
+};
+
+

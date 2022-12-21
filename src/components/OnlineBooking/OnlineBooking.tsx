@@ -5,8 +5,10 @@ export interface OnlineBooking extends Pick<InternalData, 'links'> {
 }
 
 export const OnlineBooking = ({links:{onlineBookingLink}}: OnlineBooking) => (
+    <div className={styles.wrapper}>
     <div className={styles.templatesName}>
         <a className={styles.button} href={onlineBookingLink}>Онлайн запис</a>
+    </div>
     </div>
 );
 

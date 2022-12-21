@@ -1,3 +1,8 @@
+a {
+  margin-top: 10px;
+  color: darkolivegreen;
+}
+
 .info {
   display: flex;
   justify-content: space-around;
@@ -15,27 +20,31 @@
 .iconBox {
   margin-bottom: 30px;
 }
-a{
-  margin-top: 10px;
-  color: darkolivegreen;
-}
 
-.line{
+.line {
   border-top: 2px solid grey;
   display: none;
   width: 500px;
 }
-.lineBottom{
+
+.lineBottom {
   border-top: 2px solid grey;
   width: 500px;
 }
 
-@media (max-width: 1439px){ ;
-.info{
-  display: flex;
-  flex-direction: column;
-}
-  .line{
+@media (max-width: 1439px) {;
+  .info {
     display: flex;
+    flex-direction: column;
+  }
+  .line {
+    display: flex;
+  }
+}
+
+@media (max-width: 590px) {;
+  .line {
+    display: flex;
+    width: 290px;
   }
 }

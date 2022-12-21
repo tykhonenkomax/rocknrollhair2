@@ -5,7 +5,9 @@ import './App.css';
 import {configs} from './configs/configs'
 
 
+
 function App() {
+
 
     return (
         <div className='wrapper'>
@@ -20,3 +22,6 @@ function App() {
 }
 
 export default App;
+
+
+

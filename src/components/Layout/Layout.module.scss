@@ -1,8 +1,79 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .templatesName {
-  width: 1400px;
+  width: 1440px;
 }
 
 .carouselItem {
-  height: 500px;
-  width: 467px;
+  max-height: 500px;
+  max-width: 470px;
 }
+
+@media (max-width: 1439px) {;
+  .templatesName {
+    width: 1000px;
+  }
+  .carouselItem {
+    max-height: 500px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1000px) {;
+  .templatesName {
+    width: 768px;
+  }
+  .carouselItem {
+    min-height: 500px;
+    min-width: 500px;
+    margin-left: 17%;
+  }
+}
+
+@media (max-width: 768px) {
+  .templatesName {
+    width: 590px;
+  }
+  .carouselItem {
+    min-height: 600px;
+    min-width: 590px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 590px) {
+  .templatesName {
+    width: 490px;
+  }
+  .carouselItem {
+    height: 600px;
+    width: 490px;
+  }
+}
+
+@media (max-width: 590px) {
+  .templatesName {
+    width: 490px;
+  }
+  .carouselItem {
+    height: 600px;
+    width: 490px;
+  }
+}
+
+@media (max-width: 490px) {
+  .templatesName {
+    width: 389px;
+  }
+  .carouselItem {
+    height: 600px;
+    width: 489px;
+  }
+}
+
+

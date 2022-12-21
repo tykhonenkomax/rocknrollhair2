@@ -9,31 +9,31 @@ export const PriceElement = ({price, services, time}: PriceElement) => (
     <div className={styles.templatesName}>
 
         <div>
-            <div>  {services.haircut} | <span className={styles.time}>{time.time60}</span> </div>
+            <div className={styles.column}>  {services.haircut} <span className={styles.time}> | {time.time60}</span> </div>
             <br/>
-            <div> {services.shortHaircut} | <span className={styles.time}>{time.time60}</span></div>
+            <div className={styles.column}> {services.shortHaircut}<span className={styles.time}> | {time.time60}</span></div>
             <br/>
-            <div>{services.haircutLong} | <span className={styles.time}>{time.time60}</span></div>
+            <div className={styles.column}>{services.haircutLong}<span className={styles.time}> | {time.time60}</span></div>
             <br/>
-            <div>{services.haircutFatherSon} | <span className={styles.time}>{time.time120}</span></div>
+            <div className={styles.column}>{services.haircutFatherSon}<span className={styles.time}> | {time.time120}</span></div>
             <br/>
-            <div>{services.beard} | <span className={styles.time}>{time.time30}</span></div>
+            <div className={styles.column}>{services.beard}<span className={styles.time}> | {time.time30}  </span></div>
             <br/>
-            <div>{services.haircutBeard} | <span className={styles.time}>{time.time90}</span></div>
+            <div className={styles.column}>{services.haircutBeard}<span className={styles.time}> | {time.time90}</span></div>
             <br/>
         </div>
         <div>
-            <div>{price.classicHaircut}</div>
+            <div className={styles.price}>{price.classicHaircut}</div>
             <br/>
-            <div>{price.shortHaircut}</div>
+            <div className={styles.price}>{price.shortHaircut}</div>
             <br/>
-            <div>{price.longHaircut}</div>
+            <div className={styles.price}>{price.longHaircut}</div>
             <br/>
-            <div>{price.fatherAndSon}</div>
+            <div className={styles.price}>{price.fatherAndSon}</div>
             <br/>
-            <div>{price.beard}</div>
+            <div className={styles.price}>{price.beard}</div>
             <br/>
-            <div>{price.haircutBeard}</div>
+            <div className={styles.price}>{price.haircutBeard}</div>
         </div>
 
     </div>

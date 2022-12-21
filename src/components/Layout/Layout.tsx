@@ -13,17 +13,19 @@ export interface Layout extends InternalData {
 }
 
 export const Layout = ({information, price, time, services, links}: Layout) => (
+    <div className={styles.wrapper}>
     <div className={styles.templatesName}>
         <TitlePage/>
         <UsefulInformation information={information} links={links}/>
-        <Carousel responsive={responsive}>
-            <div><img className={styles.carouselItem} src={require('assets/titlepage.jpeg')}/></div>
-            <div><img className={styles.carouselItem} src={require('assets/onlinebooking.png')}/></div>
-            <div><img className={styles.carouselItem} src={require('assets/onlinebooking.png')}/></div>
-            <div><img className={styles.carouselItem} src={require('assets/onlinebooking.png')}/></div>
+        <Carousel responsive={responsive} className={styles.carousel}>
+            <div><img className={styles.carouselItem} src={require('assets/face2.jpg')}/></div>
+            <div><img className={styles.carouselItem} src={require('assets/chair.jpg')}/></div>
+            <div><img className={styles.carouselItem} src={require('assets/school.jpg')}/></div>
+            <div><img className={styles.carouselItem} src={require('assets/speeking.jpg')}/></div>
         </Carousel>
         <Price price={price} services={services} time={time}/>
         <OnlineBooking links={links}/>
+    </div>
     </div>
 );
 
