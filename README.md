@@ -1,3 +1,10 @@
+HOW TO DEPLOY MY SITE FREE
+
+1. https://app.netlify.com/sites/candid-babka-6e8ead/overview
+2. https://blog.logrocket.com/8-ways-deploy-react-app-free/#netlify
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
