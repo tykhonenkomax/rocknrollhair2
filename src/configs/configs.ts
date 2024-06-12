@@ -15,13 +15,13 @@ let configs =
             "haircutFatherSon": "Батько та син"
         },
         "price": {
-            "shortHaircut": "350.00грн",
-            "childrensHaircut": "350.00грн",
-            "classicHaircut": "400.00грн",
-            "longHaircut": "450.00грн",
-            "fatherAndSon": "600.00грн",
+            "shortHaircut": "450.00грн",
+            "childrensHaircut": "450.00грн",
+            "classicHaircut": "500.00грн",
+            "longHaircut": "500.00грн",
+            "fatherAndSon": "750.00грн",
             "beard": "250.00грн",
-            "haircutBeard": "550.00грн",
+            "haircutBeard": "600.00грн",
         },
         "time": {
             "time30": "30хв",
